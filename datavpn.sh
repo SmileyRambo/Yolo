@@ -60,10 +60,10 @@ install_XrayR() {
 }
 
 makeConfig() {
-  echo "------  DATAVPN.SITE ---------"
+  echo "------  datavpn.io.vn ---------"
   read -p "Loại website của bạn: XFlash"
   echo "---------------"
-  read -p "Link website: https://datavpn.site"
+  read -p "Link website: https://datavpn.io.vn"
   echo "---------------"
   read -p "API key của web: 1122334455667788"
   echo "---------------"
@@ -105,7 +105,7 @@ Nodes:
   -
     PanelType: "V2board" 
     ApiConfig:
-      ApiHost: "https://datavpn.site"
+      ApiHost: "https://datavpn.io.vn"
       ApiKey: "1122334455667788"
       NodeID: $NodeID80
       NodeType: V2ray 
@@ -143,7 +143,7 @@ Nodes:
   -
     PanelType: "V2board" 
     ApiConfig:
-      ApiHost: "https://datavpn.site"
+      ApiHost: "https://datavpn.io.vn"
       ApiKey: "1122334455667788"
       NodeID: $NodeID443
       NodeType: V2ray 
